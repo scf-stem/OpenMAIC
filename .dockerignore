@@ -1,27 +1,27 @@
-# dependencies
+# 依赖
 node_modules
 .pnpm-store
 
-# build output
+# 构建产物
 .next
 out
 build
 dist
 
-# git
+# Git 元数据
 .git
 .gitignore
 
-# IDE
+# IDE 配置
 .idea
 .vscode
 
-# env & secrets
+# 环境变量与密钥
 .env*
 !.env.example
 server-providers*.yml
 
-# misc
+# 其他非运行文件
 assets
 *.md
 *.pdf
@@ -32,4 +32,5 @@ coverage
 logs
 data
 docs
+evidence
 .claude

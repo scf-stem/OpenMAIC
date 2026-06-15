@@ -1,0 +1,4 @@
+id,type,source,title,version,publish_date,access_date,link,applies_to
+ZB-001,official-doc,Zeabur,Deploying with Dockerfile,2026-05-12,2026-05-12,2026-06-15,https://zeabur.com/docs/en-US/deploy/methods/dockerfile,Dockerfile 自动检测与显式路径
+ZB-002,official-doc,Zeabur,Deploying Node.js App,2026-05-08,2026-05-08,2026-06-15,https://zeabur.com/docs/en-US/guides/nodejs,Node 版本、packageManager、PORT 与 zbpack 命令
+ZB-003,official-doc,Zeabur,Migrate from Fly.io,2026-04,2026-04,2026-06-15,https://zeabur.com/docs/en-US/get-started/migration/fly-io,Git 服务导入、变量与端口说明

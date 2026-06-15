@@ -231,6 +231,17 @@ ACCESS_CODE=your-secret-code
 3. 配置环境变量（至少一个 LLM API Key）
 4. 部署
 
+### Zeabur 部署
+
+本仓库已提供 Zeabur 适配配置。将 `scf-stem/OpenMAIC` 导入 Zeabur 后，Zeabur 会根据 `zbpack.json` 使用根目录 `Dockerfile` 构建。
+
+1. 在 Zeabur 新建项目，选择 Add Service -> Git。
+2. 选择 `scf-stem/OpenMAIC`，Root Directory 保持仓库根目录。
+3. 在 Variables 中配置至少一个 LLM API Key，并按需设置 `DEFAULT_MODEL` 与 `ACCESS_CODE`。
+4. 部署完成后，在 Networking 中生成 `.zeabur.app` 域名或绑定自定义域名。
+
+详细说明见 [Zeabur 部署指南](docs/deployment/zeabur.md)。
+
 ### Docker 部署
 
 ```bash
